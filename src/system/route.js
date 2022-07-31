@@ -18,6 +18,7 @@ import ReactLifeCycleEx from '../reactCycle/explanationView';
 import ReactLocalization from '../Localization/react_localization';
 import ReactNextGrid from '../NextGrid/react_next_grid';
 import ReactCascade from '../ReactCascade/react_cascade';
+import ReactStyling from '../reactStyling/react_style';
 const rootRoute = (
   <Router>
     <Home path="/" />
@@ -35,11 +36,10 @@ const rootRoute = (
     <PropTypesExa path="/example/proptypes" />
     <ReactPortal path="/example/react_portal" />
     <ReactLifeCycleEx path="/example/react_cycle" />
-
-
     <ReactLocalization path="/npm/localization" />
     <ReactNextGrid path="/npm/react-grid" />
     <ReactCascade path="/npm/react-cascade" />
+    <ReactStyling path="/react_style" />
   </Router>
 
 );

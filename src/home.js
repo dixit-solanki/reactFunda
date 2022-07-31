@@ -12,12 +12,35 @@ class CommonHome extends Component {
 
 
         <div className="services-area bg ptb-100 text-center">
+        <div className="container">
+            <div className="row">
+              <div className="col-sm-12">
+                <div className="section-title">
+                  <h3>React Fundamentals</h3>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-4 col-md-6 col-6">
+                  <Link to="/react_style">
+                    <div className="single-services">
+                      <div className="icon">
+                        <i className="icon-logo fa fa-list"></i>
+                      </div>
+                      <h3>React Styling</h3>
+                      <p className="hidden-lg-down">
+                       Way for provide Style in React js
+                      </p>
+                    </div>
+                  </Link>
+                </div>
+              </div>
+          </div>
           <div className="container">
             <div className="row">
               <div className="col-sm-12">
                 <div className="section-title">
-                  <h3></h3>
-
+                  <h3>React Hooks</h3>
                 </div>
               </div>
             </div>
@@ -27,7 +50,6 @@ class CommonHome extends Component {
                   <div className="single-services">
                     <div className="icon">
                       <i className="icon-logo fa fa-list"></i>
-
                     </div>
                     <h3>useEffect</h3>
                     <p className="hidden-lg-down">Use for Replacement of React Cycle</p>
