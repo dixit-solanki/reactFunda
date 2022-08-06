@@ -19,6 +19,8 @@ import ReactLocalization from '../Localization/react_localization';
 import ReactNextGrid from '../NextGrid/react_next_grid';
 import ReactCascade from '../ReactCascade/react_cascade';
 import ReactStyling from '../reactStyling/react_style';
+import LiftingStateUp from '../LiftingStateUp/App';
+
 const rootRoute = (
   <Router>
     <Home path="/" />
@@ -40,6 +42,8 @@ const rootRoute = (
     <ReactNextGrid path="/npm/react-grid" />
     <ReactCascade path="/npm/react-cascade" />
     <ReactStyling path="/react_style" />
+    <LiftingStateUp path="/lifting_state" />
+    
   </Router>
 
 );
